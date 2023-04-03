@@ -5,6 +5,7 @@
   export let rank: number = 0;
   const name = u.name || u.login;
   const userProfile = `https://github.com/${u.login}`;
+  const avatarUrl = `https://avatars.githubusercontent.com/${u.login}`;
   const color = colors[rank < colors.length ? rank : colors.length - 1];
 </script>
 
@@ -16,7 +17,7 @@
   </a>
 
   <div class="ui image">
-    <img src={u.avatarUrl} alt={name} loading="lazy" />
+    <img src={avatarUrl} alt={name} loading="lazy" />
   </div>
 
   <div class="content">

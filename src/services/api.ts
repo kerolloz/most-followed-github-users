@@ -9,7 +9,6 @@ export interface IUser {
   login: string;
   bio: string;
   followers: { totalCount: number };
-  avatarUrl: string;
 }
 
 export default {
