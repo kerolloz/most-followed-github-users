@@ -30,7 +30,11 @@
       {/each}
     </div>
   {:catch error}
-    {error.message}
+    <div class="ui segment basic huge">
+      <span class="ui error text large">
+        {error.message}
+      </span>
+    </div>
   {/await}
 </div>
 
