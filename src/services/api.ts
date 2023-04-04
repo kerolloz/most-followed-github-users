@@ -13,9 +13,18 @@ export interface IUser {
 
 export default {
   getMostFollowedUsers: async (country: string) => {
-    const response = await axios.get<IUser[]>(
-      `/most_followed_users?country=${country}`
-    );
-    return response.data;
+    try {
+      const response = await axios.get<IUser[]>(
+        `/most_followed_users?country=${country}`
+      );
+      return response.data;
+    } catch (error) {
+      console.error(error);
+      throw new Error(
+        `Error retrieving most followed users for country ${country}: ${
+          error.response?.data?.message || error.message
+        }`
+      );
+    }
   },
 };
