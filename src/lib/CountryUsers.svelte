@@ -9,9 +9,10 @@
 
 <div>
   {#await users}
-    <button class="ui basic huge segment loading">
+    <h2>
       Loading users for {country}...
-    </button>
+    </h2>
+    <div class="ui basic huge segment loading" />
   {:then users}
     <div class="ui segment basic my-segment">
       <a href="/" class="ui left labeled icon button" use:link>
