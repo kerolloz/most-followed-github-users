@@ -1,4 +1,3 @@
-import "fomantic-ui-css/semantic.min.css";
 import App from "./App.svelte";
 
 const app = new App({
