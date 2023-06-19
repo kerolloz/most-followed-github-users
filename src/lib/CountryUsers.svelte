@@ -10,7 +10,9 @@
 <div>
   {#await users}
     <h2>
-      Loading users for {country}...
+      Loading users for <span class="ui text large bold country-name"
+        >{country}</span
+      >...
     </h2>
     <div class="ui basic huge segment loading" />
   {:then users}
@@ -21,7 +23,7 @@
       </a>
       <div class="current-country">
         <i class={`medium ${country} flag`} />
-        <span class="ui text large">{country.toUpperCase()}</span>
+        <span class="ui text large country-name">{country}</span>
       </div>
     </div>
 

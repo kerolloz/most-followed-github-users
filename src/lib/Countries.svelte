@@ -15,9 +15,6 @@
 </div>
 
 <style>
-  .country-name {
-    font-variant: small-caps;
-  }
   .country-label {
     margin: 0.5rem;
   }
