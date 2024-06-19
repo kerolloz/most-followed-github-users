@@ -5,9 +5,9 @@
   <a href="https://gh-most-followed.pages.dev">gh-most-followed.pages.dev</a>
 </p>
 <p align="center">
-  <img src="https://t.ly/tTZA" alt="svelte" />
-  <img src="https://t.ly/YIszu" alt="ts" />
-  <img src="https://t.ly/E5cAr" alt="vite" />
+  <img src="https://img.shields.io/static/v1?logo=svelte&label=&message=svelte&&color=white&style=for-the-badge" alt="svelte" />
+  <img src="https://img.shields.io/static/v1?logo=Typescript&label=&message=Typescript&&color=white&style=for-the-badge" alt="ts" />
+  <img src="https://img.shields.io/static/v1?logo=vite&label=&message=vite&&color=white&style=for-the-badge" alt="vite" />
 </p>
 
 ![image](https://user-images.githubusercontent.com/36763164/230741220-5057221c-f1c0-4013-898b-1a4e9bb8e520.png)
@@ -17,7 +17,8 @@
 To get started with the project, follow these steps:
 
 1. Clone the repository  
-1. Install dependencies using `npm install`  
+1. Install dependencies using `npm install`
+1. Update the `VITE_API_BASE_URL` variable in the `.env` file.
 1. Start the development server using `npm run dev`
 
 ## Building for Production
