@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Most followed GitHub users" />
     <title>Most Followed GitHub Users</title>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fastly.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css"
+      async
+    />
 
     <style>
       html,
@@ -28,10 +34,12 @@
   </head>
   <body>
     <div id="app"></div>
-
-    <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+    <script
+      async
+      defer
+      src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"
+    ></script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
