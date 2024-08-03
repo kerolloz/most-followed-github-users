@@ -2,7 +2,7 @@
   import colors from "../assets/colors.json";
   import type { IUser } from "../services/api";
   export let u: IUser;
-  export let rank: number = 0;
+  export let rank: number;
   const name = u.name || u.login;
   const userProfile = `https://github.com/${u.login}`;
   const avatarUrl = `https://avatars.githubusercontent.com/${u.login}`;
