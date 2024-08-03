@@ -17,7 +17,7 @@
   </a>
 
   <div class="ui image">
-    <img src={avatarUrl} alt={name} loading="lazy" width="348px" height="348px"/>
+    <img src={avatarUrl} alt={name} width="348px" height="348px" />
   </div>
 
   <div class="content">
