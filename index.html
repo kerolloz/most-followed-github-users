@@ -7,6 +7,13 @@
     <meta name="description" content="Most followed GitHub users" />
     <title>Most Followed GitHub Users</title>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://buttons.github.io" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://avatars.githubusercontent.com"
+      crossorigin
+    />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
     <link
       rel="stylesheet"
       type="text/css"
@@ -35,11 +42,7 @@
   <body>
     <div id="app"></div>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script
-      async
-      defer
-      src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"
-    ></script>
-    <script type="module" src="/src/main.ts"></script>
+    <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+    <script type="module" src="/src/main.ts" async></script>
   </body>
 </html>
